@@ -63,6 +63,8 @@ class KalmanFilter {
 
   // measurement covariance matrix
   Eigen::MatrixXd R_;
+  
+  static constexpr double PI = 2*acos(0.0);
 };
 
 #endif // KALMAN_FILTER_H_
